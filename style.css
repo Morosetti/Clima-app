@@ -37,10 +37,42 @@ body {
 
     .search-box input {
         width: 80%;
+        padding: 0.8rem;
         font-size: 22px;
-        font-weight: 500;
         text-transform: uppercase;
         padding-left: 32px;
+        border: none;
+        flex: 1;
+        border-radius: 4px;
+    }
+
+    .search-box i {
+        position: absolute;
+        color: #000;
+        font-size: 27px;
+    }
+
+    .search-box input::placeholder {
+        font-size: 20px;
+        font-weight: 500;
+        color: #000;
+        text-transform: capitalize;
+    }
+
+    .search-box button {
+        padding: 0.8rem;
+        min-width: 50px;
+        margin-left: 8px;
+        background-color: #f89655d5;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .search-box button:hover {
+        color: #f8863a;
+        background: #854d27;
     }
 
 /*.not-found img {
